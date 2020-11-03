@@ -1,0 +1,44 @@
+body { 
+    font-family: 'Arial'; 
+    background: #ececec; 
+}
+
+ul { 
+    list-style-type: none; 
+    padding: 20px; 
+}
+
+li { 
+    padding: 20px; 
+    background: white; 
+    margin-bottom: 5px; 
+}
+#page {
+    margin-left: 200px;
+}
+
+#main {
+    float: right;
+    width: 100%;
+    background-color: #F0F0F0;
+    text-align: center;
+}
+#score{
+    float: left;
+    width: 250px;
+    margin-left: -200px;
+    background-color: #CCCCCC;
+    height: 100vh;
+    overflow: auto;
+}
+#setscontent{
+    float: right;
+    width: 250px;
+    background-color: #CCCCCC;
+    height: 100vh;
+    overflow: auto;
+}
+
+#clearingdiv {
+    clear: both;
+}
